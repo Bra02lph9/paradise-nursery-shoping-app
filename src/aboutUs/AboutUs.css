@@ -1,0 +1,58 @@
+.about-us-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.about-us-description {
+  font-size: 18px;
+  color: #4CAF50;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-us-content {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* 📱 Tablettes */
+@media screen and (max-width: 768px) {
+  .about-us-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .about-us-description {
+    font-size: 16px;
+  }
+
+  .about-us-content {
+    font-size: 16px;
+  }
+}
+
+/* 📱 Mobiles */
+@media screen and (max-width: 480px) {
+  .about-us-container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .about-us-description {
+    font-size: 14px;
+  }
+
+  .about-us-content {
+    font-size: 14px;
+  }
+}
